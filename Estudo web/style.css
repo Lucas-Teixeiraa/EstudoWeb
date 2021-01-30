@@ -1,0 +1,68 @@
+body{
+    min-height: 100vh;
+}
+
+html{
+    
+    background: linear-gradient(to bottom, #05445e 0%, #189ab4 100%)
+}
+.top-bar{
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1{
+    text-align: center;
+    color:#d4f1f4;
+    text-shadow: 2px 2px 5px #189ab4;
+}
+.content{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  height: 520px;
+  background: linear-gradient(to bottom, #05445e 0%, #189ab4 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content-bar{
+    margin: auto;
+    width: 50%;
+    border: 3px solid blue;
+    padding: 10px;
+}
+.Social{
+    margin: auto;
+    width: 50%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #d4f1f4;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2;
+    border-radius: 8px;
+}
+a:hover{
+    color: #d4f1f4;
+    background: #05445e;
+    box-shadow: 0 0 10px #05445e 0 0 40px #05445e 0 0 80px #05445e;
+}
+
+.Perfil img{
+    border-radius: 60%;
+    margin-left: 180px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
